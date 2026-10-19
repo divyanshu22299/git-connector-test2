@@ -1,0 +1,33 @@
+{
+  "project": {
+    "name": "बजाज फायनान्स",
+    "client": null,
+    "description": "",
+    "source_lang": "मध्ये",
+    "target_languages": [
+      "म्हणून"
+    ]
+  },
+  "version": 1,
+  "settings": {
+    "domain": "फायनान्स",
+    "workflow": [
+      "auto_translation",
+      "auto_qc",
+      "manual_qc"
+    ],
+    "profile_id": "sys-domain-finance",
+    "template_id": "sys-tmpl-finance-reporting",
+    "customPrompt": "आपण प्रमाणित वित्तीय लेखापरीक्षक आणि लेखा अनुवादक आहात. वित्तीय विवरणपत्रे, लेखापरीक्षण अहवाल, तिमाही फाइलिंग्ज आणि चलनपत्रके अत्यंत संख्यात्मक आणि शब्दावलीच्या काटेकोरपणे अनुवादित करा. मानक IFRS आणि GAAP लेखा नामांकनाचे काटेकोरपणे पालन करा. चलन चिन्हे, संख्या किंवा कर आयडी कधीही विकृत करू नका.",
+    "contextSettings": {
+      "tone": "औपचारिक",
+      "domain": "फायनान्स",
+      "purpose": "पालन करा",
+      "audience": "उद्योग खरेदीदार",
+      "formality": "अत्यंत औपचारिक",
+      "contentType": "पालन दस्तऐवज",
+      "referenceContext": "वित्तीय अहवाल, चलनपत्रके, लेखापरीक्षण दस्तऐवज, गुंतवणूकदार अहवाल, आणि ताळेबंद.",
+      "terminologyStrictness": "कठोर"
+    }
+  }
+}
