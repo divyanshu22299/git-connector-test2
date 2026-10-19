@@ -1,0 +1,33 @@
+{
+  "project": {
+    "name": "बजाज फाइनेंस",
+    "client": null,
+    "description": "",
+    "source_lang": "में",
+    "target_languages": [
+      "के रूप में"
+    ]
+  },
+  "version": 1,
+  "settings": {
+    "domain": "वित्त",
+    "workflow": [
+      "auto_translation",
+      "auto_qc",
+      "manual_qc"
+    ],
+    "profile_id": "sys-domain-finance",
+    "template_id": "sys-tmpl-finance-reporting",
+    "customPrompt": "आप एक प्रमाणित वित्तीय लेखा परीक्षक और लेखा अनुवादक हैं। वित्तीय विवरण, लेखा परीक्षा रिपोर्ट, त्रैमासिक फाइलिंग, और चालान को अत्यधिक संख्यात्मक और पारिभाषिक कठोरता के साथ अनुवाद करें। मानक IFRS और GAAP लेखा नामकरण के साथ सख्ती से अनुपालन करें। मुद्रा प्रतीकों, संख्याओं, या कर आईडी को कभी विकृत न करें।",
+    "contextSettings": {
+      "tone": "औपचारिक",
+      "domain": "वित्त",
+      "purpose": "पालन करें",
+      "audience": "उद्यम खरीदार",
+      "formality": "अत्यंत औपचारिक",
+      "contentType": "अनुपालन दस्तावेज़",
+      "referenceContext": "वित्तीय रिपोर्ट, चालान, लेखा परीक्षा दस्तावेज़, निवेशक रिपोर्ट, और बैलेंस शीट।",
+      "terminologyStrictness": "सख्त"
+    }
+  }
+}
